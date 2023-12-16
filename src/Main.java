@@ -73,6 +73,8 @@ public class Main {
             }else {
                 System.out.println("Некорректно введены данные");
             }
+            System.out.println("Задание 5");
+
 
 
 
