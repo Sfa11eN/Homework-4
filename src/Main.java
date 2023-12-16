@@ -23,7 +23,7 @@ public class Main {
             if (age2 < 18) {
                 System.out.println("Если ваш возраст " + age2 + " - Вы не достигли совершеннолетия, нужно немного подождать.");
             } else if (age2 >= 18 && age2 >= 23) {
-                System.out.println("Если ваш возраст " + age2 + " ,вы можете курить и покупать алкоголь");
+                System.out.println("Если ваш возраст " + age2 + " ,вы можете курить и  даже покупать алкоголь.");
             } else {
                 System.out.println("Если ваш возраст " + age2 + " ,вы можете курить, но не можете покупать алкоголь");
             }
@@ -61,6 +61,21 @@ public class Main {
                 System.out.println("Если ваша скорость " + speed + " , вам придется заплатить штраф.");
             }
             System.out.println("Задание 4");
+            int mansAge = 33;
+            if (mansAge > 2 && mansAge <= 6) {
+                System.out.println("Если возраст человека равен " + mansAge + ", то ему нужно ходить в детский сад.");
+            } else if (mansAge >= 7 && mansAge < 18) {
+                System.out.println("Если возраст человека равен " + mansAge + ", то ему нужно ходить в школу.");
+            } else if (mansAge >= 18 && mansAge < 24) {
+                System.out.println("Если возраст человека равен " + mansAge + ", то его место в университете.");
+            }else if (mansAge>=24){
+                System.out.println("Если возраст человека равен " + mansAge + ", то ему пора ходить на работу.");
+            }else {
+                System.out.println("Некорректно введены данные");
+            }
+
+
+
         }
     }
 }
