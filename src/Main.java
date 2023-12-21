@@ -101,12 +101,12 @@ public class Main {
             int one = 21;
             int two = 7;
             int three = 13;
-            if (one > two && one > three){
-                System.out.println("Самое большое число "+one);
-            }else if (two > one && two > three) {
-                System.out.println("Самое большое число "+two);
-            }else if (three > two && three > one){
-                System.out.println("Самое большое число "+three);
+            if (one > two && one > three) {
+                System.out.println("Самое большое число " + one);
+            } else if (two > one && two > three) {
+                System.out.println("Самое большое число " + two);
+            } else if (three > two && three > one) {
+                System.out.println("Самое большое число " + three);
             }
 
 
