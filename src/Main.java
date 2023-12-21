@@ -60,6 +60,7 @@ public class Main {
             } else {
                 System.out.println("Если ваша скорость " + speed + " , вам придется заплатить штраф.");
             }
+
             System.out.println("Задание 4");
             int mansAge = 33;
             if (mansAge > 2 && mansAge <= 6) {
@@ -68,14 +69,45 @@ public class Main {
                 System.out.println("Если возраст человека равен " + mansAge + ", то ему нужно ходить в школу.");
             } else if (mansAge >= 18 && mansAge < 24) {
                 System.out.println("Если возраст человека равен " + mansAge + ", то его место в университете.");
-            }else if (mansAge>=24){
+            } else if (mansAge >= 24) {
                 System.out.println("Если возраст человека равен " + mansAge + ", то ему пора ходить на работу.");
-            }else {
+            } else {
                 System.out.println("Некорректно введены данные");
             }
             System.out.println("Задание 5");
-
-
+            int childAge = 13;
+            if (childAge < 5) {
+                System.out.println("Если возраст ребенка равен " + childAge + ", то ему нельзя кататься на аттракционе.");
+            } else if (childAge > 5 && childAge < 14) {
+                System.out.println("Если возраст ребенка равен " + childAge + ", то он может кататься на аттракционе только в сопровождении взрослого.");
+            } else if (childAge > 14) {
+                System.out.println("Если возраст ребенка равен " + childAge + ", то он может кататься на аттракционе без сопровождения взрослого.");
+            } else {
+                System.out.println("Некорректно введены данные");
+            }
+            System.out.println("Задание 6");
+            int carriageCapacity = 102;
+            int sitCapacity = 60;
+            int stayCapacity = carriageCapacity - sitCapacity;
+            int numberOfTickets = 13;
+            if (numberOfTickets >= 1 && numberOfTickets <= 59) {
+                System.out.println("Если продано " + numberOfTickets + " билетов на поезд" + ", в вагоне есть " + (sitCapacity - numberOfTickets) + " сидячих места и " + stayCapacity + " стоячих мест.");
+            } else if (numberOfTickets >= 60 && numberOfTickets < 102) {
+                System.out.println("Если продано " + numberOfTickets + " билета на поезд" + ", в вагоне нет сидячих мест . но есть " + stayCapacity + " стоячих.");
+            } else {
+                System.out.println("Если продано " + numberOfTickets + " билетов на поезд" + ", вагон полностью забит , нет никаких мест.");
+            }
+            System.out.println("Задание 7");
+            int one = 21;
+            int two = 7;
+            int three = 13;
+            if (one > two && one > three){
+                System.out.println("Самое большое число "+one);
+            }else if (two > one && two > three) {
+                System.out.println("Самое большое число "+two);
+            }else if (three > two && three > one){
+                System.out.println("Самое большое число "+three);
+            }
 
 
         }
